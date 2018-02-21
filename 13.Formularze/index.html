@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+  <form>
+    <legend>Your Name:</legend>
+      <label>
+        <input type="text" name="username" placeholder="Your name" size="50">
+      </label>
+    <legend>Your E-mail Address:</legend>
+      <label>
+        <input type="text" name="usermail" placeholder="Your e-mail" size="50">
+      </label>
+    <legend>Your message:</legend>
+     <label>
+      <textarea rows="10" cols="50" textarea placeholder="Please describe your question or comment"></textarea>
+     </label>
+   </legend>
+    <br />
+    <input type="submit" value="Send">
+  </form>
+  <br />
+  <form>
+    <legend><b>Car Rental</b></legend>
+    <fieldset>
+      <legend>Choose car class</legend>
+        <label>mini
+          <input type="radio" name="carType" value="mini" align="left">
+        </label><br />
+        <label>economy
+          <input type="radio" name="carType" value="economy">
+        </label><br />
+        <label>compact
+          <input type="radio" name="carType" value="compact">
+        </label><br />
+        <label>SUV
+          <input type="radio" name="carType" value="suv">
+        </label><br />
+        <label>Van
+          <input type="radio" name="carType" value="Van">
+        </label>
+      </legend>
+    </fieldset><br />
+    <fieldset>
+      <legend>Choose optional equipment</legend>
+        <label>child seat
+          <input type="checkbox" name="extras" value="child seat">
+        </label><br />
+        <label>GPS
+          <input type="checkbox" name="extras" value=GPS checked>
+        </label><br />
+        <label>DVD player
+          <input type="checkbox" name="extras" value="dvd">
+        </label>
+     </legend>
+  </fieldset>
+    <label>Rental start date
+      <input type="date" name="date">
+    </label><br />
+    <label>Number of days
+      <input type="number" name="days">
+    </label><br />
+    <label>Your password
+      <input type="password">
+    </label><br />
+    <input type="submit" value="Order now!">
+
+ </body>
+</html>

@@ -1,0 +1,23 @@
+.squareList {
+  list-style-type: square;
+}
+.menuList {
+  list-style-type: none;
+  color: #116493;
+}
+.start {
+  display: inline-block;
+  margin: 0 10px;
+}
+.us {
+  display: inline-block;
+  margin: 0 10px;
+}
+.gallery {
+  display: inline-block;
+  margin: 0 10px;
+}
+.contact {
+  display: inline-block;
+  margin: 0 10px;
+}

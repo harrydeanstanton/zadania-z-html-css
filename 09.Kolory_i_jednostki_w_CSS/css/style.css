@@ -1,0 +1,36 @@
+#el {
+  color: red;
+  }
+#wi {
+  color: blue;
+}
+#CSS {
+  color: darkkhaki;
+}
+#j {
+  color: purple;
+}
+#ws {
+  color: yellow
+}
+#one {
+  background-color: C0C0C0;
+}
+#two {
+  background-color: rgb(255, 0, 0);
+}
+#three {
+  background-color: hsl(60, 100%, 25%);
+}
+.container {
+  background-color: 000080;
+  width: 200px;
+}
+#HSL {
+  background-color: hsl(60, 100%, 25%);
+  width: 50%;
+}
+#nas {
+  background-color: white;
+  width: 10em;
+}
